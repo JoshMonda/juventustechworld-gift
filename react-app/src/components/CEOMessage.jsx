@@ -28,11 +28,13 @@ export default function CEOMessage({ onClose, userName = '' }) {
     return (
       <div className="relative bg-white/95 backdrop-blur-md rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-xl border-2 border-green-500/30">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          {/* CEO Photo Placeholder - Circular */}
-          <div className="flex-shrink-0 w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-green-600 to-red-600 p-1 shadow-lg">
-            <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-2xl sm:text-3xl">
-              👔
-            </div>
+          {/* CEO Photo - Circular */}
+          <div className="flex-shrink-0 w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-green-600 to-red-600 p-1 shadow-lg overflow-hidden">
+            <img 
+              src="https://scontent.fnuu2-1.fna.fbcdn.net/v/t39.30808-6/481296147_617285014411755_9058395112683822557_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeGyqYH1ZiDXyWecbd30uSxj2DUKz7JBubDYNQrPskG5sC-VX9dRkQ_YphHUK5KGBgpV-H0vYamdxf97KWbdoDH3&_nc_ohc=mQo2_HaBCQ4Q7kNvwHmdNRo&_nc_oc=Adkd3fGlCF3erJh_vif3-JK9-zGqYU3nn0CwYoPz14f2sxjLNEYp2d1AzIyV0PHfbDY&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnuu2-1.fna&_nc_gid=HUjbGtetOs4N0P9WpS5PLw&oh=00_Afkjc-cQWt-5FwVYGfcz7g3F9Ayg0Y0Cn3QWr_KXF5v9HQ&oe=695290A1"
+              alt="Mr. Joash Monda Mukherjee, CEO - Juventus Tech World"
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
           
           <div className="flex-1">
@@ -71,10 +73,12 @@ export default function CEOMessage({ onClose, userName = '' }) {
         <div className="text-center mb-4 sm:mb-6">
           {/* CEO Photo - Circular */}
           <div className="flex justify-center mb-4">
-            <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-green-600 to-red-600 p-1.5 sm:p-2 shadow-xl">
-              <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-4xl sm:text-5xl">
-                👔
-              </div>
+            <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-green-600 to-red-600 p-1.5 sm:p-2 shadow-xl overflow-hidden">
+              <img 
+                src="https://scontent.fnuu2-1.fna.fbcdn.net/v/t39.30808-6/481296147_617285014411755_9058395112683822557_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeGyqYH1ZiDXyWecbd30uSxj2DUKz7JBubDYNQrPskG5sC-VX9dRkQ_YphHUK5KGBgpV-H0vYamdxf97KWbdoDH3&_nc_ohc=mQo2_HaBCQ4Q7kNvwHmdNRo&_nc_oc=Adkd3fGlCF3erJh_vif3-JK9-zGqYU3nn0CwYoPz14f2sxjLNEYp2d1AzIyV0PHfbDY&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnuu2-1.fna&_nc_gid=HUjbGtetOs4N0P9WpS5PLw&oh=00_Afkjc-cQWt-5FwVYGfcz7g3F9Ayg0Y0Cn3QWr_KXF5v9HQ&oe=695290A1"
+                alt="Mr. Joash Monda Mukherjee, CEO - Juventus Tech World"
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
           <h2 className="font-dancing text-3xl sm:text-5xl text-green-700 mb-2">A Message from the CEO</h2>
